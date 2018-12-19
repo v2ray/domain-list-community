@@ -12,6 +12,7 @@ include:unionpay
 include:bytedance
 include:bilibili
 include:sina
+include:jd
 
 # CDNs
 
