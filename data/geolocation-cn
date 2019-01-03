@@ -18,6 +18,8 @@ include:unionpay
 include:xiaomi
 include:ynet
 include:zhihu
+include:meituan
+include:eleme
 
 # CDNs
 
@@ -142,7 +144,6 @@ dbank.com
 dedecms.com
 dgtle.com
 diandian.com
-dianping.com
 diopic.net
 docin.com
 dockerone.com
@@ -278,7 +279,6 @@ meiqia.com
 meika360.com
 meilishuo.com
 meishij.net
-meituan.com
 meizu.com
 mgtv.com
 miaopai.com
