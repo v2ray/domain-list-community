@@ -7,6 +7,7 @@ include:hunantv-ads
 include:iqiyi-ads
 include:jd-ads
 include:letv-ads
+include:netease-ads
 include:sina-ads
 include:youku-ads
 
@@ -14,3 +15,19 @@ include:youku-ads
 # Other domains for ads serving
 ad.wang502.com
 ad-srv.net
+adbutter.net
+
+
+# Ads serving for httpool.com
+toboads.com
+
+# Ads serving for unimhk.com
+ad.unimhk.com
+
+ysm.yahoo.com
+
+adxprtz.com
+exosrv.com
+exoclick.com
+
+cdn.advertserve.com
