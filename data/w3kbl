@@ -1,0 +1,552 @@
+# Personal Blocklist by WaLLy3K (https://firebog.net/about)
+# Content added to this list has been manually verified, and usually updated every two weeks
+
+# Licensing: CC BY-NC 4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+## You are welcome to share, copy, redistibute, remix and transform this content
+## You must give appropriate credit, and not use this list for commercial purposes
+
+# Ads
+quantummetric.com # Cydia/Bigboss
+cydia.saurik.com.cdngc.net # Cydia/Bigboss
+production-ultimate-assets.ratecity.com.au # NewsCorp
+saber.srvcs.tumblr.com # Tumblr
+fd-fp3.wg1.b.yahoo.com # Tumblr
+usc.adserver.snapads.com # Snapchat
+euw.adserver.snapads.com # Snapchat
+ad-cdn.technoratimedia.com # LA Times
+content.synapsys.us # LA Times
+engine.fyber.com # Mobile games
+yt.moatads.com
+us.intellitxt.com
+evolveplatform.net
+dashboard.evolveplatform.net
+www-googletagmanager.l.google.com
+gstaticadssl.l.google.com
+adservice.google.com.au
+a1.adstore.jp
+ad.fyber.angsrvr.com
+ade.googlesyndication.com
+www.vungle.com
+e5019.e2.akamaiedge.net # Vungle
+rules.noadblock.org
+wildcard.moatads.com.edgekey.net
+sdk.appsflyer.com
+c0.adalyser.com
+c2.adalyser.com
+c3.adalyser.com
+c5.adalyser.com
+hb.nexage.com
+hbopenbid.pubmatic.com
+ezoic.net
+g.ezoic.net
+acceptable.a-ads.com
+prg.smartadserver.com
+player.adtelligent.com
+hb.adtelligent.com
+
+# In-browser Cryptocurrency (Bitcoin-like) miners
+coin-hive.com
+coinhiveproxy.com
+jsecoin.com
+crypto-loot.com
+
+# BlockAdBlock Trackers
+bannertrack.net
+serve.bannertrack.net
+yasni.bannertrack.net
+adtrackers.net
+zoover.adtrackers.net
+serve.adtrackers.net
+
+# Instart Logic
+instartlogic.com
+www.instartlogic.com
+opencache.com
+www.opencache.com
+sdad.guru
+www.sdad.guru
+volantix.com
+www.volantix.com
+insnw.net
+www.insnw.ne
+inscname.net
+www.inscname.net
+
+# SBS On Demand T&T
+thefilter.com
+www.thefilter.com
+api211.thefilter.com
+d16s8pqtk4uodx.cloudfront.net
+d20i5e3rqc90ne.cloudfront.net
+d29usylhdk1xyu.cloudfront.net
+d3hmp0045zy3cs.cloudfront.net
+docj27ko03fnu.cloudfront.net
+rpxnow.com
+nexus.ensighten.com
+
+# Unknown anti-adblock
+www.summerhamster.com
+summerhamster.com
+www.roosterfirework.com
+roosterfirework.com
+
+# Tracking & Telemetry
+ls.srvcs.tumblr.com # Tumblr
+deliver.oztam.com.au # ABC iView
+collector.abc-host.net.au # ABC iView
+cws.conviva.com
+app-analytics.snapchat.com # Snapchat
+gfwsl.geforce.com # Nvidia
+gfe.geforce.com # Nvidia
+telemetry.nvidia.com # Nvidia
+gfe.nvidia.com # Nvidia
+telemetry.gfe.nvidia.com # Nvidia
+#events.gfe.nvidia.com # Nvidia (Interferes with GeForce Experience driver updates)
+telemetry.malwarebytes.com # Malwarebytes
+tags.tiqcdn.com # Ancestery
+open.oneplus.net # Android
+ctoid.net # HSTS Supercookie http://bit.ly/2xJJUPP
+metrics.plex.tv
+analytics.plex.tv
+invisioncloudstats.com
+api.branch.io
+www.usekahuna.com
+gate.hockeyapp.net
+msmetrics.ws.sonos.com
+analytics.kidoz.net # Hopster
+sdk.kidoz.net
+cdn.kidoz.net
+advertising.oriel.io
+www.adiode.com # Anti adblock
+adiode.com
+d35fgcharv2shj.cloudfront.net # Adobe telemetry
+rules.quantcount.com
+api.viafoura.co
+placements.tapjoy.com
+content.tapjoy.com
+rpc.tapjoy.com
+api.redshell.io # https://redd.it/8pud8b
+in.treasuredata.com # RedShell
+tracking.monsido.com
+stats.zotabox.com
+static.zotabox.com
+batch.upsight-api.com
+single.upsight-api.com
+bootstrap.upsight-api.com
+fast-nc.appcues.com
+analytics.servogram.io
+ancestry.siteintercept.qualtrics.com
+www.movable-ink-2183.com
+assets.micpn.com # MovableInk
+ink1001.com # MovableInk
+c.tracking.goodgamestudios.com
+cdn.monsido.com
+incoming.telemetry.mozilla.org
+info.muxy.io
+melonmail.melon.com.au
+metric.kleientertainment.com
+monetize-api.coronalabs.com
+phonograph2.voxmedia.com
+platform.cloud-iq.com.au
+psa.carambo.la
+public.vilynx.com
+reports.crashlytics.com
+secure.informaction.com
+serve.adtrackers.net
+sofia.trustx.org
+ssor.tribdss.com
+statgw2.devtodev.com
+track.mmsvc.io
+api.south.kontagent.net
+kvinit-prod.api.kochava.com
+is-tracking-pixel-api-prod.appspot.com
+rs.fullstory.com
+api-lytics.macpaw.com
+www.fullstory.com
+gate.datacaciques.com # 3rd party eBay Seller Metrics
+adc-ad-assets.adtilt.com
+file-cdn.beeketing.com
+static-assets-queue-it.net # https://bit.ly/2NQzE0I
+acdn.adnxs.com
+iphone.aut5.com # https://t.co/8OWVnDjucG
+update.aut5.com
+analytics.ff.avast.com # CCleaner Temeletry
+ip-info.ff.avast.com
+ipm-provider.ff.avast.com
+v7event.stats.avast.com
+acdn.adnxs.com
+api.privy.com
+app.adjust.com
+cdn.districtm.io
+dc.railgun.works
+deploygate.com
+detect.rayjump.com
+fast.fonts.net
+gate.datacaciques.com
+i.frg.im
+open.inkfrog.com
+thor.blindferret.media
+thor.rtk.io
+jita.rtk.io
+sync.rtk.io
+match.prod.bidr.io
+pingback.issuu.com
+scs.webtrends.com
+sdk-cdn.beeketing.com
+sdk.beeketing.com
+settings.crashlytics.com
+sdk.appsflyer.com
+stats.appsflyer.com
+static.tidiochat.com
+settings.crashlytics.com
+app.adjust.com
+buy-au.piano.io
+piano.io
+
+# Malware
+aloseks.org # Phishing
+shortyz.co # Phishing
+groceriesgiftcards.com # Phishing
+campingforthefunofit.com # Phishing
+cameforcameand33212.com # OSXMokes
+jikenick12and67.com # OSXMokes
+startdigitaal.nl # DDE Exploit via @MalwareTechBlog
+uaswitcher.org # Chrome User-Agent Switcher trojan
+api.data-monitor.info # As above
+exclusive-vouchers.com
+specialdeals.g5e.com
+
+
+# Admiral Anti-Adblock (09/07/2018)
+# Cr: https://forums.lanik.us/viewtopic.php?f=62&t=39468
+2znp09oa.com
+4jnzhl0d0.com
+5mcwl.pw
+6ldu6qa.com
+82o9v830.com
+abandonedclover.com
+abruptroad.com
+absentstream.com
+absurdwater.com
+acridtwist.com
+actuallysheep.com
+advertisementafterthought.com
+afraidlanguage.com
+agreeableprice.com
+ak0gsh40.com
+ambitiousagreement.com
+anxiousapples.com
+archswimming.com
+argyresthia.com
+ariseboundary.com
+awzbijw.com
+balancebreath.com
+balloontexture.com
+barbarousnerve.com
+baskettexture.com
+bawdybeast.com
+beamincrease.com
+beamkite.com
+bedsbreath.com
+bestboundary.com
+bewilderedblade.com
+billowybead.com
+blushingbeast.com
+blushingboundary.com
+boilingbeetle.com
+boilingumbrella.com
+boredcrown.com
+boringcoat.com
+brassrule.com
+briefbears.com
+broadboundary.com
+broadcastbed.com
+btez8.xyz
+bustlinganimal.com
+butterburst.com
+calculatingcircle.com
+calculatorcamera.com
+calmfoot.com
+capablecows.com
+captainbicycle.com
+cherrythread.com
+chesscolor.com
+chickensstation.com
+chiefcurrent.com
+chinchickens.com
+chunkycactus.com
+clearcomb.com
+comfortablecheese.com
+commandwalk.com
+commonswing.com
+completecabbage.com
+concernedcondition.com
+concernrain.com
+consciouscabbage.com
+consciousdirt.com
+coordinatedbedroom.com
+copperchickens.com
+copycarpenter.com
+copyrightaccesscontrols.com
+correctchaos.com
+crabbychin.com
+crawlclocks.com
+critictruck.com
+crownclam.com
+culturedcrayon.com
+cumbersomecloud.com
+curtaincows.com
+cutecushion.com
+dashingdirt.com
+dashingsweater.com
+deadpantruck.com
+debonairway.com
+decisivedrawer.com
+decisiveducks.com
+decoycreation.com
+delightdriving.com
+desertedbreath.com
+detailedglue.com
+detectdiscovery.com
+differentdesk.com
+discreetfield.com
+dispensablestranger.com
+dk4ywix.com
+docksalmon.com
+dolphindispute.com
+donkeyleaf.com
+doubtfulrainstorm.com
+dq95d35.com
+dragzebra.com
+driverequest.com
+earthquakescarf.com
+economicpizzas.com
+efficaciouscactus.com
+elasticchange.com
+elderlyscissors.com
+elephantqueue.com
+endurableshop.com
+enthusiasticdad.com
+enviousthread.com
+erraticreaction.com
+errortablet.com
+exclusivebrass.com
+experienceeggs.com
+facilitategrandfather.com
+fanaticalfly.com
+farethief.com
+farmergoldfish.com
+faultycanvas.com
+flakyfeast.com
+flavordecision.com
+flimsycircle.com
+floodprincipal.com
+floweryoperation.com
+foamybox.com
+fourarithmetic.com
+frailoffer.com
+functionalclam.com
+futuristicapparatus.com
+futuristicfairies.com
+fuzzyflavor.com
+fuzzyweather.com
+ga87z2o.com
+gammamaximum.com
+giddycoat.com
+gloriousbeef.com
+glossysense.com
+gondolagnome.com
+gorgeousground.com
+gossipmiser.com
+greetzebra.com
+greyinstrument.com
+guardedgovernor.com
+guardedschool.com
+guitarbelieve.com
+h78xb.pw
+handleteeth.com
+handyfield.com
+headyhook.com
+hfc195b.com
+highfalutinbox.com
+hilariouszinc.com
+hollowshake.com
+homelycrown.com
+hurtteeth.com
+illustriousoatmeal.com
+importedincrease.com
+incrediblesugar.com
+innocentwax.com
+inquisitiveinvention.com
+instrumentsponge.com
+internalsink.com
+inventionpassenger.com
+inviterabbits.com
+ivykiosk.com
+j93557g.com
+jadeitite.com
+jamexistence.com
+jewelcheese.com
+justicejudo.com
+k54nw.pw
+karisimbi.net
+laughcloth.com
+leaplunchroom.com
+limpingline.com
+lizardslaugh.com
+lopsidedspoon.com
+loudloss.com
+lp3tdqle.com
+lumpyleaf.com
+markedcrayon.com
+matchcows.com
+medusasailor.com
+memorizeneck.com
+memorycobweb.com
+messagenovice.com
+minormeeting.com
+mixedreading.com
+modifyeyes.com
+mountaintail.com
+mowfruit.com
+necessarywax.com
+neighborlywatch.com
+nervoussummer.com
+nondescriptcrowd.com
+nostalgicknot.com
+optimallimit.com
+orangeoperation.com
+ovalpigs.com
+owlsr.us
+parchedangle.com
+parsimoniouspolice.com
+peacepowder.com
+perceivequarter.com
+petiteumbrella.com
+photographpan.com
+pietexture.com
+possessivebucket.com
+possibleboats.com
+practicetoothpaste.com
+presetrabbits.com
+previousplayground.com
+productivepear.com
+profitrumour.com
+provideplant.com
+puffyloss.com
+puffypurpose.com
+puzzlingfall.com
+quaintcan.com
+quarterbean.com
+quicksandear.com
+rapidkittens.com
+raresummer.com
+readgoldfish.com
+readingguilt.com
+readingopera.com
+readymoon.com
+rebelsubway.com
+receptiveink.com
+receptivereaction.com
+reflectivereward.com
+resolutekey.com
+resonantrock.com
+robustbelieve.com
+rulerabbit.com
+savorystructure.com
+saysidewalk.com
+scarcesign.com
+scarcestream.com
+scintillatingspace.com
+scrubsky.com
+scrubswim.com
+selectivesummer.com
+separatesilver.com
+shakesea.com
+shakesuggestion.com
+shakytaste.com
+shallowschool.com
+sharppatch.com
+shelterstraw.com
+shiveringsail.com
+shockingship.com
+shockingswing.com
+sillyscrew.com
+similarsabine.com
+simplisticnose.com
+sinceresofa.com
+sincerespy.com
+slaysweater.com
+sleepcartoon.com
+smilingwaves.com
+snakesort.com
+sneaklevel.com
+sneakystamp.com
+sorethunder.com
+spectacularsnail.com
+spidersboats.com
+spiffymachine.com
+spillvacation.com
+spookyslope.com
+spottysense.com
+spurioussteam.com
+squeamishscarecrow.com
+steadfastsound.com
+stickssheep.com
+storesurprise.com
+stormyachiever.com
+stormyshock.com
+stormysponge.com
+straightnest.com
+straightschool.com
+strivesidewalk.com
+structuresofa.com
+succeedscene.com
+suddensidewalk.com
+sugarcurtain.com
+superficialsink.com
+swordgoose.com
+talentedsteel.com
+tangibleteam.com
+tarttendency.com
+teenyvolcano.com
+terribleturkey.com
+teschenite.com
+thinkablerice.com
+thinkabletrick.com
+thirdrespect.com
+thirstytwig.com
+thomastorch.com
+threechurch.com
+throattrees.com
+ticklesign.com
+tidytrail.com
+tracedesire.com
+tranquilside.com
+trickycelery.com
+tritetongue.com
+truckstomatoes.com
+typicalteeth.com
+tzwaw.pw
+unarmedindustry.com
+unknowntray.com
+untidyquestion.com
+unusualtitle.com
+uttermosthobbies.com
+vanfireworks.com
+voicevegetable.com
+waryfog.com
+wateryvan.com
+wellgroomedbat.com
+wellmadefrog.com
+whirlwealth.com
+whiskyqueue.com
+wirecomic.com
+worrybutter.com
+wrongpotato.com
+wryfinger.com
+xovq5nemr.com
+youngmarble.com
+zbwp6ghm.com
+zealousfield.com
+futuristicfifth.com
