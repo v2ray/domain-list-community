@@ -23,6 +23,10 @@ include:eleme
 include:oneplus
 include:stage1st
 
+#所有CN域名
+regexp:.*\.cn$
+regexp:.*cn\.com$
+
 # CDNs
 
 ourdvsss.com # 网宿科技
