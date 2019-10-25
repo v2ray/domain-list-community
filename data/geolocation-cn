@@ -2,6 +2,7 @@
 
 include:alibaba
 include:baidu
+include:bytedance
 include:ctrip
 include:elong
 include:mafengwo
