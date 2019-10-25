@@ -2,10 +2,16 @@
 
 include:alibaba
 include:baidu
+include:ctrip
+include:elong
+include:mafengwo
 include:netease
 include:iqiyi
 include:qihoo360
+include:qyer
+include:sina
 include:tencent
+include:tongcheng
 include:zhihu
 include:xiaomi
 
@@ -123,7 +129,6 @@ cqvip.com
 csbew.com
 csdn.net
 ctfile.com
-ctrip.com
 cubead.com
 dajie.com
 dajieimg.com
