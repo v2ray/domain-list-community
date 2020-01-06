@@ -24,9 +24,12 @@ include:amazon
 include:apple
 include:facebook
 include:google
+include:hp
+include:ibm
 include:linkedin
 include:microsoft
 include:mozilla
+include:nvidia
 include:oracle
 include:twitter
 include:uber
