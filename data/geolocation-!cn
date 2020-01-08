@@ -1,11 +1,11 @@
 # This list contains domains that don't have access point in China. This is opposite to geolocation-cn.
 
+include:category-porn
 include:adobe
 include:amazon
 include:apkpure
 include:apple
 include:archive
-include:avgle
 include:bbc
 include:bestbuy
 include:boxun
@@ -44,7 +44,6 @@ include:nytimes
 include:oracle
 include:pinterest
 include:pixiv
-include:pornhub
 include:python
 include:quora
 include:rarbg
@@ -90,27 +89,6 @@ include:ieee
 include:nature
 include:computingreviews
 include:knovel
-include:theporndude
-include:caoliu
-include:91porn
-include:chaturbate
-include:xvideos
-include:javbus
-include:javhd
-include:xhamster
-include:xnxx
-include:beeg
-include:pornhd
-include:hqporner
-include:eporner
-include:redtube
-include:youporn
-include:tube8
-include:pigav
-include:netflav
-include:kindgirls
-include:xart
-include:hegre
 include:0zmedia
 include:caijinglengyan
 include:sinoinsider
