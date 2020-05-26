@@ -27,6 +27,7 @@ include:category-dev
 include:adobe
 include:amazon
 include:apple
+include:atlassian
 include:facebook
 include:godaddy
 include:google
@@ -72,14 +73,17 @@ include:verisign
 include:addthis
 include:addtoany
 include:apkpure
+include:bear
 include:bitwarden
 include:digitalocean
 include:disqus
 include:dropbox
 include:duckduckgo
 include:entermediadb
+include:evernote
 include:faststone
 include:feedly
+include:figma
 include:gofundme
 include:gravatar
 include:heroku
@@ -88,21 +92,27 @@ include:infrapedia
 include:jwplayer
 include:linguee
 include:netlify
+include:notion
 include:osdn
 include:patreon
 include:pinterest
 include:protonmail
+include:quip
 include:sharethis
 include:shopify
+include:simplenote
+include:slack
 include:sourceforge
 include:startpage
 include:steemit
 include:stripe
+include:trello
 include:tumblr
 include:vercel
 include:webflow
 include:wix
 include:wordpress
+include:zeplin
 
 # Communications
 include:discord
