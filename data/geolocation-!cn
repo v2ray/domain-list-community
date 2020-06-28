@@ -30,6 +30,7 @@ include:amazon
 include:apple
 include:atlassian
 include:facebook
+include:github
 include:godaddy
 include:google
 include:hinet
