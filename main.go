@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/app/router"
+	"github.com/v2fly/v2ray-core/app/router"
 )
 
 var dataPath = flag.String("datapath", "", "Path to the custom data folder")
