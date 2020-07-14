@@ -407,6 +407,12 @@ webobjects.eu
 crl.apple.com # Certificate validation
 ocsp.apple.com # Certificate validation
 
+# Developer
+developer.apple.com @dev
+devimages-cdn.apple.com @dev
+devstreaming-cdn.apple.com @dev
+playgrounds-cdn.apple.com @dev
+
 # Device management
 push.apple.com # Push notifications
 gdmf.apple.com # MDM server to identify which software updates are available to devices that use managed software updates
