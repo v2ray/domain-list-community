@@ -29,6 +29,7 @@ include:ogury-ads
 include:onesignal-ads
 include:ookla-speedtest-ads
 include:pubmatic-ads
+include:qihoo360-ads
 include:segment-ads
 include:sina-ads
 include:sohu-ads
