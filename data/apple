@@ -403,71 +403,15 @@ webobjects.co.uk
 webobjects.de
 webobjects.eu
 
-# Certificate validation
-crl.apple.com # Certificate validation
-ocsp.apple.com # Certificate validation
-
 # Developer
 developer.apple.com @dev
 devimages-cdn.apple.com @dev
 devstreaming-cdn.apple.com @dev
 playgrounds-cdn.apple.com @dev
 
-# Device management
-push.apple.com # Push notifications
-gdmf.apple.com # MDM server to identify which software updates are available to devices that use managed software updates
-deviceenrollment.apple.com # DEP provisional enrollment
-deviceservices-external.apple.com
-identity.apple.com # APNs certificate request portal
-iprofiles.apple.com # Hosts enrollment profiles used when devices enroll in Apple School Manager or Apple Business Manager through Device Enrollment
-mdmenrollment.apple.com # MDM servers to upload enrollment profiles used by clients enrolling through Device Enrollment in Apple School Manager or Apple Business Manager, and to look up devices and accounts
-setup.icloud.com # Required to log in with a Managed Apple ID on Shared iPad
-vpp.itunes.apple.com # MDM servers to perform operations related to Apps and Books, like assigning or revoking licenses on a device
-
-# Device setup
-albert.apple.com
-captive.apple.com # Internet connectivity validation for networks that use captive portals
-gs.apple.com
-humb.apple.com
-static.ips.apple.com
-tbsc.apple.com
-time-ios.apple.com # Used by devices to set their date and time
-time.apple.com # Used by devices to set their date and time
-time-macos.apple.com # Used by devices to set their date and time
-
-# Software updates
-## App Store
-itunes.apple.com # Store content such as apps, books, and music
-apps.apple.com # Store content such as apps, books, and music
-mzstatic.com # Store content such as apps, books, and music
-ppq.apple.com # Enterprise App validation
-
-## Content caching
-lcdn-registration.apple.com # Content caching server registration
-
-## macOS, iOS & tvOS
-appldnld.apple.com # iOS updates
-gg.apple.com # iOS, tvOS, and macOS updates
-gnf-mdn.apple.com # macOS updates
-gnf-mr.apple.com # macOS updates
-gs.apple.com # macOS updates
-ig.apple.com # macOS updates
-mesu.apple.com # Hosts software update catalogs
-ns.itunes.apple.com
-oscdn.apple.com # macOS Recovery
-osrecovery.apple.com # macOS Recovery
-skl.apple.com # macOS updates
-swcdn.apple.com # macOS updates
-swdist.apple.com # macOS updates
-swdownload.apple.com # macOS updates
-swpost.apple.com # macOS updates
-swscan.apple.com # macOS updates
-updates-http.cdn-apple.com
-updates.cdn-apple.com
-xp.apple.com
-
 apple-cloudkit.com
 cdn-apple.com
+mzstatic.com
 
 apple.com.akadns.net
 courier-push-apple.com.akadns.net
