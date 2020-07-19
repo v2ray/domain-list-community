@@ -4,7 +4,7 @@ This project manages a list of domains, to be used as geosites for routing purpo
 
 ## Announcement
 
-Due to a lack of members capable of code review, this repository has been moved to [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community).
+Due to a lack of members capable of code review, this repository has been moved to [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community). This also means that the new repo can give permission to more member.
 
 From now on, this repo will only be used to release `dlc.dat`. Other matters (issue and pull request) will be handled at the new repository.
 
