@@ -2,6 +2,12 @@
 
 This project manages a list of domains, to be used as geosites for routing purpose in Project V.
 
+## Announcement
+
+Due to a lack of members capable of code review, this repository has been moved to [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community). This also means that the new repo can give permission to more member.
+
+From now on, this repo will only be used to release `dlc.dat`. Other matters (issue and pull request) will be handled at the new repository.
+
 ## Purpose of this project
 
 This project is not opinionated. In other words, it does NOT endorse, claim or imply that a domain should be blocked or proxied. It can be used to generate routing rules on demand.
