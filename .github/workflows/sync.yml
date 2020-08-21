@@ -1,0 +1,72 @@
+name: Sync dlc.dat with v2fly/domain-list-community
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "**/README.md"
+jobs:
+  build:
+    name: Sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compare latest tags and set variables
+        run: |
+          upstreamLatestTag=$(curl -sSL --connect-timeout 5 -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/v2fly/domain-list-community/releases/latest | grep "tag_name" | cut -d\" -f4)
+          thisLatestTag=$(curl -sSL --connect-timeout 5 -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/v2ray/domain-list-community/releases/latest | grep "tag_name" | cut -d\" -f4)
+          if [[ $upstreamLatestTag != $thisLatestTag ]]; then
+            echo "::set-env name=NeedToSync::true"
+          fi
+          echo "::set-env name=RELEASE_NAME::$upstreamLatestTag"
+          echo "::set-env name=TAG_NAME::$upstreamLatestTag"
+        shell: bash
+
+      - name: Git clone "release" branch of v2fly/domain-list-community to get "dlc.dat"
+        if: ${{ env.NeedToSync }}
+        run: git clone https://github.com/v2fly/domain-list-community.git --branch release --single-branch
+
+      - name: Git push assets to "release" branch
+        if: ${{ env.NeedToSync }}
+        run: |
+          cd domain-list-community
+          git config --local user.name "actions"
+          git config --local user.email "action@github.com"
+          git remote add v2ray "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u v2ray release
+
+      - name: Create a release
+        id: create_release
+        if: ${{ env.NeedToSync }}
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          release_name: ${{ env.RELEASE_NAME }}
+          body: "Sync with https://github.com/v2fly/domain-list-community/releases/tag/${{ env.TAG_NAME }}"
+          draft: false
+          prerelease: false
+
+      - name: Upload dlc.dat
+        if: ${{ env.NeedToSync }}
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./domain-list-community/dlc.dat
+          asset_name: dlc.dat
+          asset_content_type: application/octet-stream
+
+      - name: Upload dlc.dat.sha256sum
+        if: ${{ env.NeedToSync }}
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./domain-list-community/dlc.dat.sha256sum
+          asset_name: dlc.dat.sha256sum
+          asset_content_type: text/plain

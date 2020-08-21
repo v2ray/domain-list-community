@@ -2,6 +2,12 @@
 
 This project manages a list of domains, to be used as geosites for routing purpose in Project V.
 
+## Announcement
+
+Due to a lack of members capable of code review, this repository has been moved to [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community). This also means that more contributors can have manager access to the new repository after a few successful PRs, which will make the project healthier and more active for good.
+
+From now on, this repo will only be used to release `dlc.dat`. Other matters (issues and pull requests) will be handled at the new repository.
+
 ## Purpose of this project
 
 This project is not opinionated. In other words, it does NOT endorse, claim or imply that a domain should be blocked or proxied. It can be used to generate routing rules on demand.
@@ -13,7 +19,7 @@ This project is not opinionated. In other words, it does NOT endorse, claim or i
 
 ## Usage example
 
-Each file in the `data/` directory can be used as a rule in this format: `geosite:filename`.
+Each file in the `data` directory can be used as a rule in this format: `geosite:filename`.
 
 ```json
 "routing": {
@@ -31,11 +37,9 @@ Each file in the `data/` directory can be used as a rule in this format: `geosit
       "type": "field",
       "outboundTag": "Direct",
       "domain": [
-        "domain:v2ex.com",
         "domain:icloud.com",
         "domain:icloud-content.com",
         "domain:cdn-apple.com",
-        "geosite:jsdelivr",
         "geosite:cn"
       ]
     },
@@ -66,20 +70,28 @@ Each file in the `data/` directory can be used as a rule in this format: `geosit
 }
 ```
 
+## Generate `dlc.dat` manually
+
+- Install `golang` and `git`
+- Download and install project code: `go get -u -v --insecure github.com/v2ray/domain-list-community`
+- Generate `dlc.dat` (without `datapath` option means to use `data` directory of this repository in `$GOPATH`):
+  - `$(go env GOPATH)/bin/domain-list-community`
+  - `$(go env GOPATH)/bin/domain-list-community --datapath=/path/to/your/custom/data/directory`
+
 ## Structure of data
 
-All data are under `data/` directory. Each file in the directory represents a sub-list of domains, named by the file name. File content is in the following format.
+All data are under `data` directory. Each file in the directory represents a sub-list of domains, named by the file name. File content is in the following format.
 
 ```
 # comments
 include:another-file
-domain:google.com @attr1 @att2
+domain:google.com @attr1 @attr2
 keyword:google
 regex:www\.google\.com
 full:www.google.com
 ```
 
-Syntax:
+**Syntax:**
 
 * Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
 * Inclusion begins with `include:`, followed by the file name of an existing file in the same directory.
@@ -91,7 +103,7 @@ Syntax:
 
 ## How it works
 
-The entire data directory will be built into an external `geosite` file for Project V. Each file in the directory represents a section in the generated file.
+The entire `data` directory will be built into an external `geosite` file for Project V. Each file in the directory represents a section in the generated file.
 
 To generate a section:
 
@@ -111,7 +123,7 @@ Theoretically any string can be used as the name, as long as it is a valid file 
 
 ### Attributes
 
-Attribute is useful for sub-group of domains, especially for filtering purpose. For example, the list of "google" domains may contains its main domains, as well as domains that serve ads. The ads domains may be marked by attribute "@ads", and can be used as "geosite:google@ads" in V2Ray routing.
+Attribute is useful for sub-group of domains, especially for filtering purpose. For example, the list of `google` domains may contains its main domains, as well as domains that serve ads. The ads domains may be marked by attribute `@ads`, and can be used as `geosite:google@ads` in V2Ray routing.
 
 ## Contribution guideline
 

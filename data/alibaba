@@ -1,66 +1,166 @@
+# All .alibaba domains
+
+alibaba
+
+# All .alipay domains
+
+alipay
+
+# All .taobao domains
+
+taobao
+
+# All .tmall domains
+
+tmall
+
+include:alibaba-ads
+include:alibabacloud
+include:aliyun
+include:dingtalk
+include:eleme
+include:teambition
+include:umeng
+
+25pp.com
+56che.com
 95095.com
-alibaba.com
+9game.cn
+aliapp.org
 alibaba-inc.com
-alibabagroup.com
+alibaba.com
+alibabacapital.com
 alibabacorp.com
+alibabadoctor.com
+alibabafuturehotel.com
+alibabagroup.com
 alibabaplanet.com
-alibabadns.com
+alibabaued.com
 alibabausercontent.com
-alicdn.com
-alidns.com
+aliexpress.com
+alifanyi.com
+alihealth.com.cn
+alihealth.hk
 aliimg.com
+alikmd.com
+alimama.com
+alimebot.com
+alimei.com
+alios.cn
 alipay.com
 alipayobjects.com
 aliplus.com
+aliresearch.com
 alisoft.com
-aliyun.com
-aliyun-inc.com
-aliyuncdn.com
-aliyuncs.com
-aliapp.org
 alisports.com
-alimama.com
+alitianji.com
+aliunicorn.com
+aliway.com
+aliwork.com
+alixiaomi.com
+alizhaopin.com
+alyms.cn
+asczwa.com
+asczxcefsv.com
+asmlink.cn
+atatech.org
+b2byao.com
+bazai.com
+bcvbw.com
+cheng.xin
+cloudeagle.cn
+damai.cn
+dayu.com
+dfkhgj.com
+doctoryou.ai
+doctoryou.cn
 dongting.com
+dratio.com
+emas-poc.com
+gongyi.xin
+ialicdn.com
+iconfont.cn
+ics.design
+jhgtgb.com
+kanbox.com
+lazada.com
+liangxinyao.com
+m-now.cn
+maitix.com
+mdeer.com
 mei.com
-mxhichina.com
+miaostreet.com
+mshare.cc
+nic.xin
+philanthropy.xin
+phpwind.com
+phpwind.net
+qingtingtrip.com
+rexpos.cn
+saee.org.cn
+shenjing.com
+shuqi.com
+shuqireader.com
+sparenode.com
+supet.com
+ttpod.com
+wandoujia.com
+xinlingshou.cn
+yowhale.com
+yunos-inc.com
+yunos.com
+yushanfang.com
+zuodao.com
 
+# 神马搜索
 sm.cn
 
+# 菜鸟
 cainiao.com
 cainiao.com.cn
 cainiao-inc.com
 
-# Taobao
+# 盒马
+freshhema.com
+hemamax.com
+hemaos.com
+hemashare.cn
+shyhhema.com
+
+# 淘宝
 1688.com
-taobao.com
-taobao.org
-taopiaopiao.com
-taobaocdn.com
-tbcache.com
-tmall.com
-tmalltv.com
+etao.com
 juhuasuan.com
 lingshoujia.com
+mashort.cn
 pailitao.com
-etao.com
+taobao.com
+taobao.org
+taobaocdn.com
+taobizhong.com
+taopiaopiao.com
+tb.cn
+tbcache.com
+tburl.in
+tmall.com
+tmalltv.com
+tmjl.ai
 
-# Fliggy
+# 飞猪
 alitrip.com
 feizhu.cn
 feizhu.com
 fliggy.com
+fliggy.hk
 iuynfg.com
 
-# amap
+# 高德地图
 amap.com
 amapauto.com
 autonavi.com
 gaode.com
 
-# Xiami music
+# 虾米音乐
 xiami.com
 xiami.fm
 xiami.net
-
-include:alibaba-ads
-include:dingtalk

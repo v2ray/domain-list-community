@@ -5,6 +5,7 @@ include:cambridge
 include:clarivate
 include:doi
 include:elsevier
+include:google-scholar
 include:mit
 include:oup
 include:sciencedirect
@@ -34,6 +35,7 @@ jneurosci.org
 jstor.org
 mdpi.com
 nature.com
+nejm.org
 neurology.org
 ovid.com
 peerj.com
