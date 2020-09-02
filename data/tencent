@@ -1,12 +1,16 @@
-include:tencent-ads
 include:dnspod
+include:tencent-ads
+include:yuewen
 
 apcdns.net
+cdn-go.cn
+cdntips.com
 foxmail.com
 foxmail.com.cn
 gtimg.cn
 gtimg.com
 gtimg.com.cn
+idqqimg.com
 imqq.com
 myapp.com
 myqcloud.com
@@ -17,8 +21,10 @@ qpic.cn
 qq.com
 qqmail.com
 qzone.com
+rtx.com.cn
 servicewechat.com
 smtcdns.com
+smtcdns.net
 tencent.cn
 tencent.com
 tencent.com.cn
@@ -30,4 +36,10 @@ tencentyun.com
 tenpay.com
 wechat.com
 wegame.com
+wegame.com.cn
 weiyun.com
+
+
+alloyteam.com
+imweb.io
+ivweb.io

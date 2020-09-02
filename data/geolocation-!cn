@@ -1,27 +1,92 @@
 # This list contains domains that don't have access point in China. This is opposite to geolocation-cn.
 
-# TLD
+# TLDs (Top Level Domains) used outside China mainland
 include:tld-!cn
 
-# VPN services
-include:category-vpnservices
+# Advertisment & Analytics
+include:pubmatic
+include:taboola
 
-# VPN tools & Privacy protection & Anti-GFW & Anti-censorship
+# Anti-censorship & Anti-GFW & Privacy protection & VPN tools
 include:category-anticensorship
 
-# Porn
-include:category-porn
+# Art & Design
+include:artstation
+include:dribbble
+include:dyna
+include:fonts
+include:fontsinuse
+include:glyphs
+include:jiyukobo
+include:monotype
+include:morisawa
+include:pinterest
+include:realtype
+include:typenetwork
+include:typography
+include:webtype
+
+# Automobile
+include:bmw
+include:bridgestone
+include:tesla
+include:volvo
+
+# Bank & Finance
+include:mastercard
+include:paypal
+include:softbank
+include:stripe
+include:visa
+
+# CDN companies & Services
+include:akamai
+include:cloudflare
+include:fastly
+include:imgix
+include:pagecdn
+include:quantil
+include:stackpath
+
+# Certificate authorities
+include:category-cas
+
+# Communications
+include:discord
+include:freenode
+include:line
+include:signal
+include:slack
+include:telegram
 
 # Cryptocurrency
 include:category-cryptocurrency
 
-# News & Press & Media
-include:category-media
+# E-commerce
+include:adidas
+include:bestbuy
+include:booking
+include:costco
+include:craigslist
+include:dmm
+include:ebay
+include:farfetch
+include:gucci
+include:hm
+include:homedepot
+include:ikea
+include:miniso
+include:muji
+include:nike
+include:nordstrom
+include:shopee
+include:target
+include:walmart
 
-# Science & Technology & Knowledge & Scholar & Press & E-learning
-include:category-scholar-!cn
+# E-learning & Knowledge & Press & Scholar & Science & Technology
 include:betterexplained
 include:brilliant
+include:category-scholar-!cn
 include:cern
 include:chinapower
 include:code
@@ -29,6 +94,7 @@ include:codecademy
 include:coursera
 include:edx
 include:egghead
+include:freecodecamp
 include:khanacademy
 include:knovel
 include:laracasts
@@ -41,112 +107,100 @@ include:udacity
 include:udemy
 include:w3schools
 
-# Software development related
-include:category-dev
+# Entertainment & Games & Music & Podcasts & Videos
+include:category-entertainment
 
-# Tech companies & Orginations
-include:acer
-include:adobe
-include:alibabacloud
-include:amazon
-include:apple
-include:atlassian
-include:bmw
-include:canon
-include:cisco
-include:cloudcone
-include:dell
-include:facebook
-include:gigabyte
-include:godaddy
-include:google
-include:hinet
-include:hp
-include:ibm
-include:intel
-include:linkedin
-include:logitech
-include:microsoft
-include:mozilla
-include:nvidia
-include:oracle
-include:razer
-include:salesforce
-include:samsung
-include:sony
-include:twitter
-include:uber
-include:westerndigital
-include:yahoo
-include:yandex
+# File host & Image host
+include:0x0
+include:dropbox
+include:gfycat
+include:imgur
+include:streamable
 
-# CDN companies & Services
-include:cloudflare
-include:fastly
-include:pagecdn
-include:quantil
-include:stackpath
+# Forums
+include:4chan
+include:5ch
+include:avsforum
+include:dcard
+include:doom9
+include:lihkg
+include:pincong
+include:quora
+include:reddit
 
-# Certificate authorities
-# Reference: https://en.wikipedia.org/wiki/Certificate_authority
-include:buypass
-include:comodo
-include:cybertrust
-include:digicert
-include:entrust
-include:globalsign
-include:identrust
-include:letsencrypt
-include:secom
-include:sectigo
-include:swisssign
-include:telekom
-include:trustwave
-include:verisign
+# Media & News & Press
+include:category-media
+
+# Organizations
+include:category-orgs
+
+# Porn
+include:category-porn
 
 # Services & Softwares
+include:accuweather
 include:addthis
 include:addtoany
 include:apkpure
+include:arphic
 include:bitly
 include:bitwarden
+include:blender
+include:brightcove
+include:buymeacoffee
+include:cloudconvert
+include:contentful
 include:cuttly
 include:digitalocean
 include:disqus
-include:dropbox
 include:duckduckgo
 include:entermediadb
+include:esri
 include:evernote
 include:faststone
 include:feedly
 include:figma
 include:gofundme
 include:gravatar
+include:hcaptcha
 include:heroku
-include:imgur
+include:iina
 include:infrapedia
 include:inoreader
 include:isgd
 include:jwplayer
+include:kindle4rss
+include:kodi
+include:liberapay
 include:linguee
+include:madshi
+include:mapbox
 include:mega
+include:mpv
 include:netlify
 include:notion
+include:opencollective
 include:osdn
+include:pastebin
 include:patreon
 include:picsee
-include:pinterest
+include:pingpe
 include:protonmail
 include:quip
+include:reabble
 include:rebrandly
 include:reurl
+include:sb
 include:sharethis
 include:shopify
 include:shorturl
 include:sourceforge
 include:startpage
 include:steemit
-include:stripe
+include:svp
+include:test-ipv6
+include:tex
+include:tidelift
 include:tinyurl
 include:trello
 include:tumblr
@@ -158,96 +212,28 @@ include:zeplin
 include:zoho
 include:zoom
 
-# Bank & Finance
-include:mastercard
-include:visa
+# Software development
+include:category-dev
 
-# Communications
-include:discord
-include:line
-include:signal
-include:slack
-include:telegram
+# Tech companies
+include:category-companies
 
-# E-commerce
-include:adidas
-include:bestbuy
-include:dmm
-include:ebay
-include:gucci
-include:nike
-include:shopee
+# VPN services
+include:category-vpnservices
 
-# Entertainment & Videos & Games & Music & Podcasts
-include:abema
-include:archiveofourown
-include:attwatchtv
-include:bandcamp
-include:castro
-include:deviantart
-include:disney
-include:epicgames
-include:fireside
-include:hbo
-include:hulu
-include:imdb
-include:kingkonglive
-include:litv
-include:megaphone
-include:mojang
-include:moov
-include:netflix
-include:niconico
-include:nintendo
-include:overcast
-include:pixiv
-include:playstation
-include:pocketcasts
-include:sling
-include:sonypictures
-include:soundcloud
-include:spotify
-include:steam
-include:steamunlocked
-include:tiktok
-include:twitch
-include:ubi
-include:vimeo
-include:viu
-include:weverse
-include:yande
-include:yyets
-
-# Forums
-include:dcard
-include:lihkg
-include:pincong
-include:quora
-include:reddit
-
-# Organizations
-include:archive
-include:change
-include:csis
-include:emojipedia
-include:globalsecurity
-include:nist
-include:ruleoflaw
-include:un
-include:who
+# Wiki
+include:fandom
+include:miraheze
+include:wikihow
 include:wikimedia
-include:wto
-
-# Advertisment & Analytics
-include:pubmatic
-include:taboola
 
 # Others
-include:fonts
+include:familymart
 include:hkedcity
 include:huanghuagang
 include:mcdonalds
 include:rarbg
+include:rb
 include:starbucks
 include:tsquare
 include:windy
