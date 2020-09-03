@@ -139,8 +139,11 @@ include:category-porn
 
 # Services & Softwares
 include:accuweather
+include:adblock
+include:adblockplus
 include:addthis
 include:addtoany
+include:adguard
 include:apkpure
 include:arphic
 include:bitly
@@ -154,6 +157,7 @@ include:cuttly
 include:digitalocean
 include:disqus
 include:duckduckgo
+include:easylist
 include:entermediadb
 include:esri
 include:evernote
@@ -224,6 +228,9 @@ include:category-vpnservices
 # Wiki
 include:fandom
 include:miraheze
+include:scp
+include:translatewiki
+include:wikidot
 include:wikihow
 include:wikimedia
 
