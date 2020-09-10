@@ -1,3 +1,7 @@
+# Move To https://github.com/v2fly/domain-list-community
+
+***
+
 # Domain list community
 
 This project manages a list of domains, to be used as geosites for routing purpose in Project V.
