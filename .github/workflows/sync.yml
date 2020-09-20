@@ -1,4 +1,4 @@
-name: Sync dlc.dat and data directory with v2fly
+name: Sync dlc.dat, data directory and main.go with v2fly
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -30,12 +30,12 @@ jobs:
           git config --local user.email "action@github.com"
           git remote add v2fly https://github.com/v2fly/domain-list-community.git
 
-      - name: Sync "data" directory with v2fly
+      - name: Sync "data" directory and "main.go" with v2fly
         if: ${{ env.NeedToSync }}
         run: |
           git fetch v2fly
-          git checkout v2fly/master data
-          git commit -am "Sync data directory with v2fly automatically"
+          git checkout v2fly/master data main.go
+          git commit -am "Sync with v2fly automatically"
           git push
 
       - name: Git push assets to "release" branch
