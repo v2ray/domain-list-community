@@ -35,8 +35,10 @@ jobs:
         run: |
           git fetch v2fly
           git checkout v2fly/master data
-          git commit -am "Sync data directory with v2fly automatically"
-          git push
+          if [[ $(git status --short | awk '{print $2}') ]]; then
+            git commit -am "Sync data directory with v2fly automatically"
+            git push
+          fi
 
       - name: Git push assets to "release" branch
         if: ${{ env.NeedToSync }}
