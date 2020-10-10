@@ -11,10 +11,10 @@ jobs:
           upstreamLatestTag=$(curl -sSL --connect-timeout 5 -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/v2fly/domain-list-community/releases/latest | grep "tag_name" | cut -d\" -f4)
           thisLatestTag=$(curl -sSL --connect-timeout 5 -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/v2ray/domain-list-community/releases/latest | grep "tag_name" | cut -d\" -f4)
           if [[ $upstreamLatestTag != $thisLatestTag ]]; then
-            echo "::set-env name=NeedToSync::true"
+            echo "NeedToSync=true" >> $GITHUB_ENV
           fi
-          echo "::set-env name=RELEASE_NAME::$upstreamLatestTag"
-          echo "::set-env name=TAG_NAME::$upstreamLatestTag"
+          echo "RELEASE_NAME=$upstreamLatestTag" >> $GITHUB_ENV
+          echo "TAG_NAME=$upstreamLatestTag" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout codebase
