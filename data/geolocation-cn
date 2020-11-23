@@ -1,4 +1,4 @@
-# List of all domains that have access point in China
+# List of all domains that have access point in China mainland
 
 # Advertisment & Analytics
 include:jiguang
@@ -171,6 +171,7 @@ include:gitee
 include:jinrishici
 include:juejin
 include:oschina
+include:pgyer
 include:rubychina
 include:sxl
 include:segmentfault
@@ -568,6 +569,7 @@ enterdesk.com
 eoeandroid.com
 excelhome.net
 expreview.com
+extfans.com
 f.cx
 faloo.com
 famulei.com
@@ -694,6 +696,7 @@ imedao.com
 imgo.tv
 imooc.com
 indienova.com
+infinitynewtab.com
 infoq.com
 infoqstatic.com
 ip-cdn.com
