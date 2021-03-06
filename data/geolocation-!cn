@@ -44,9 +44,11 @@ include:visa
 
 # CDN companies & Services
 include:akamai
+include:cdn77
 include:cloudflare
 include:fastly
 include:imgix
+include:limelight
 include:pagecdn
 include:quantil
 include:stackpath
@@ -58,6 +60,7 @@ include:category-cas
 include:clubhouse
 include:discord
 include:freenode
+include:intercom
 include:line
 include:matrix
 include:signal
