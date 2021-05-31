@@ -11,6 +11,7 @@ include:maocloud
 include:pkoplink
 include:qingcloud
 include:qiniu
+include:snodehome
 include:ucloud
 include:upai
 include:wangsu
@@ -91,6 +92,7 @@ include:chiphell
 include:douban
 include:erji
 include:hacpai
+include:kechuang
 include:nga
 include:stage1st
 include:zhihu
