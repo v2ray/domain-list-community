@@ -27,8 +27,10 @@ include:sling
 include:sonypictures
 include:soundcloud
 include:spotify
+include:subscene
 include:tidal
 include:tiktok
+include:tmdb
 include:tver
 include:twitch
 include:vimeo
