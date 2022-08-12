@@ -146,6 +146,8 @@ include:category-porn
 include:falungong
 
 # Services & Softwares
+include:category-browser-!cn
+
 include:accuweather
 include:adblock
 include:adblockplus
@@ -265,6 +267,8 @@ include:translatewiki
 include:wikidot
 include:wikihow
 include:wikimedia
+
+touhouwiki.net
 
 # Others
 include:avaxhome

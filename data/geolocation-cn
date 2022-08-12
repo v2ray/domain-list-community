@@ -102,6 +102,9 @@ include:nga
 include:stage1st
 include:zhihu
 
+# 快对作业
+kuaiduizuoye.com
+
 # Logistics
 include:sf-express
 
@@ -228,6 +231,9 @@ liulishuo.com
 llsapp.com
 llscdn.com
 llsserver.com
+
+# 门户网站
+moulem.com
 
 # Aviation
 include:airchina # 中国国际航空
