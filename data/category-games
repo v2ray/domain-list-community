@@ -1,4 +1,5 @@
 include:2kgames
+include:bilibili-game
 include:blizzard
 include:curseforge
 include:cygames
@@ -7,6 +8,7 @@ include:epicgames
 include:garena
 include:gog
 include:illusion
+include:lowiro
 include:mihoyo
 include:nintendo
 include:op
