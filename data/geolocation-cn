@@ -117,13 +117,14 @@ include:pptv
 include:qingtingfm
 include:sfacg
 include:taomee
-include:taptap
 include:tgbus
 include:tiancity
 include:u17
 include:vgtime
+include:xd
 include:xiaohongshu
 include:ximalaya
+include:yamibo
 include:youku
 include:yy
 include:zhanqi
@@ -267,6 +268,7 @@ include:baidu
 include:bluepoch
 include:bytedance
 include:didi
+include:dji
 include:huawei
 include:iflytek
 include:kingsoft
