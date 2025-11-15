@@ -159,6 +159,7 @@ include:category-browser-!cn
 include:category-enhance-gaming
 include:category-mobile-repair
 include:category-ntp
+include:category-password-management
 include:decryptipastore # iOS
 
 include:rsshub
@@ -172,9 +173,7 @@ include:addtoany
 include:adguard
 include:aptoide
 include:arphic
-include:authy
 include:bitly
-include:bitwarden
 include:blender
 include:brightcove
 include:buymeacoffee
@@ -198,7 +197,6 @@ include:hcaptcha
 include:heroku
 include:hurricaneelectric
 include:iina
-include:imageglass
 include:infrapedia
 include:inoreader
 include:isgd
@@ -211,7 +209,6 @@ include:localizejs
 include:madshi
 include:mapbox
 include:mega
-include:mpv
 include:netlify
 include:notion
 include:ok
