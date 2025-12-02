@@ -3,6 +3,7 @@
 include:category-games-!cn
 include:category-novel
 
+include:7tv
 include:abema
 include:amc
 include:anime
@@ -36,6 +37,7 @@ include:kktv
 include:lastfm
 include:litv
 include:manhuagui
+include:metacritic
 include:mubi
 include:mudvod
 include:mytvsuper
@@ -50,6 +52,7 @@ include:plutotv
 include:pocketcasts
 include:primevideo
 include:roku
+include:rutube
 include:showtimeanytime
 include:sling
 include:sonypictures
