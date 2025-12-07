@@ -4,8 +4,10 @@ include:bluearchive
 include:curseforge
 include:cygames
 include:ea
+include:embark
 include:epicgames
 include:escapefromtarkov
+include:faceit
 include:garena
 include:gog
 include:hoyoverse
