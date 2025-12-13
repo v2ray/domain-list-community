@@ -51,6 +51,7 @@ lufaxcdn.com
 
 # CDN or SDWAN
 include:aws-cn
+include:baishancloud
 include:bootcdn
 include:cloudflare-cn
 include:dwion
@@ -204,11 +205,18 @@ jsehealth.com
 ## 仁科医疗科技有限公司服务域名，为北大口腔和一些其他国内医院小程序提供服务
 mingxuan.store
 
+# Party and government offices & Public units
+gov.cn
+## 中国气象局
+cma.cn
+## 中央气象台
+nmc.cn
+
 # Public transportation
 include:airchina # 中国国际航空
 include:hainanairlines # 海南航空
 
-caac.gov.cn # 中国民航局
+# 中国民航局 caac.gov.cn
 ceair.com # 中国东方航空
 chinaexpressair.com # 华夏航空
 csair.com # 中国南方航空
@@ -481,13 +489,6 @@ include:sinopec
 chugou360.com
 ycrx360.com
 
-# 中国气象局政府门户网站
-cma.gov.cn
-# 中国气象局
-cma.cn
-# 中央气象台
-nmc.cn
-
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
 
@@ -509,12 +510,10 @@ nmc.cn
 1637.com
 16888.com
 16rd.com
-17173.com
 178linux.com
 17989.com
 17cdn.com
 17house.com
-18183.com
 1905.com
 19yxw.com
 1nongjing.com
@@ -595,7 +594,6 @@ nmc.cn
 7230.com
 72byte.com
 7down.com
-7k7k.com
 7po.com
 7x24cc.com
 7xdown.com
@@ -1101,7 +1099,6 @@ mumayi.com
 muomou.com
 muzhiwan.com
 mydown.com
-mydrivers.com
 myshow360.net
 myyx618.com
 myzaker.com
