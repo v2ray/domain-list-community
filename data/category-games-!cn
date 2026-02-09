@@ -1,4 +1,3 @@
-include:2kgames
 include:blizzard
 include:bluearchive
 include:bohemia
@@ -10,6 +9,7 @@ include:eneba
 include:epicgames
 include:escapefromtarkov
 include:faceit
+include:gaijin
 include:garena
 include:gog
 include:hoyoverse
@@ -30,12 +30,12 @@ include:pubg
 include:purikonejp
 include:riot
 include:roblox
-include:rockstar
 include:snk
 include:steam
 include:steaminventoryhelper
 include:steamunlocked
 include:supercell
+include:take-two
 include:ubisoft
 include:vrchat
 include:wbgames
