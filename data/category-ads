@@ -32,6 +32,7 @@ include:pikpak @ads
 include:pixiv @ads
 include:qihoo360 @ads
 include:samsung @ads
+include:sber @ads
 include:sina @ads
 include:snap @ads
 include:sohu @ads
@@ -46,6 +47,7 @@ include:xhamster @ads
 include:xiaomi @ads
 include:ximalaya @ads
 include:yahoo @ads
+include:yandex @ads
 include:zhihu @ads
 
 # Other domains for ads serving
