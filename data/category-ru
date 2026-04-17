@@ -3,6 +3,7 @@ ru.com
 ru.net
 
 include:tld-ru
+include:category-betting-ru
 include:category-ecommerce-ru
 include:category-entertainment-ru
 include:category-gov-ru
@@ -11,36 +12,51 @@ include:category-retail-ru
 include:category-travel-ru
 
 # Russian companies
+include:beget
 include:carrotquest
+include:cdek
 include:headhunter
 include:kaspersky
+include:kontur
 include:mailru-group
 include:mindbox
+include:myoffice-ru
 include:selectel
+include:skyeng
+include:tilda
+include:timeweb
+include:ucoz-ru
 include:whoosh
 include:yandex
 
 # Bank & Finance & Insurance & Securities
 include:category-bank-ru
-# Credit History Bureaus
+## Credit History Bureaus
 credistory.ru
 nbki.ru
-# Currency and stock exchanges
+## Currency and stock exchanges
 moex.com   # Moscow Stock Exchange
 spvb.ru    # Saint-Petersburg Stock Exchange
-# Financial marketplace
+## Financial marketplace
 banki.ru
 finuslugi.ru
-# Investment
+## Investment
 sistema-capital.com
-# Mir payment system
+## Mir payment system
 mironline.ru
 mirpayonline.ru
-# National Payment Card System
+## National Payment Card System
 nspk.ru
-# Tipping service
+## Tipping service
 netmonet.co
 tips.tips
+
+# Media
+# NOT include category-media-ru, it's for media blocked in Russia now.
+russiatoday.com
+rteam.tech   # IT company owned by RT's parent org (ANO TV-Novosti)
+shop-rt.com  # RT merchandise store
+swentr.site  # RT mirror domain
 
 # Telecom operators
 beeline.ru
@@ -80,6 +96,21 @@ roistat.com @ads # Russian marketing company
 srv-hub.org      # Website buider
 t1.cloud         # Russian cloud storage provider
 taxsee.com       # Taxi for business (self-employed drivers)
+
+# Other services
+3ebra.net         # Zebra Net Bureau, web development agency
+envybox.io @ads   # Website conversion widgets
+flomni.com        # Omnichannel communications platform
+flocktory.com @ads # Marketing personalization platform
+gismeteo.net      # Gismeteo weather service
+gismeteo.st       # Gismeteo weather service
+group-ib.com      # Group-IB cybersecurity company
+kinescopecdn.net  # Kinescope video hosting CDN
+ognihome.com      # OGNI HOME resident portal
+saas-support.com @ads # CDN/infrastructure for Envybox
+targetads.io @ads # Advertising verification platform
+whitesaas.com @ads # White-label product of Envybox
+yourgood.app      # CRM for small business
 
 ## COMSS.ONE "Computer Security Software Russia"
 comss.club
