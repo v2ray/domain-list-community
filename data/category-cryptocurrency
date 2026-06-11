@@ -12,6 +12,7 @@ include:gateio
 include:huobi
 include:kraken
 include:kucoin
+include:lighter
 include:localbitcoins
 include:nexo
 include:okx
@@ -43,6 +44,7 @@ clearpool.finance
 coinalyze.net
 coinbase.com
 coindesk.com
+coingate.com
 coingecko.com
 coinglass.com
 coinmap.org
@@ -60,6 +62,7 @@ gemini.com
 gmgn.ai
 guardarian.com
 hashflow.com
+hyperliquid.xyz
 infura.io
 invity.io
 maple.finance
