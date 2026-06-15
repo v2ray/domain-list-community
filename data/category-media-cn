@@ -34,16 +34,17 @@ bbtnews.com.cn
 bianews.com
 # 财经网
 caijing.com.cn
-# 财联社
-cailianpress.com
-cls.cn
 # 财新网
 caixin.com
 # 参考消息
 cankaoxiaoxi.com
 ckxx.net
+# 电脑商情在线
+cbinews.com
 # 改革网
 cfgw.net.cn
+# 中国家电网
+cheaa.com
 # AET 电子技术应用
 chinaaet.com
 # 天极网
@@ -116,8 +117,10 @@ geekbang.org
 infoq.cn
 # 极客公园
 geekpark.net
-# 光明网
-gmw.com
+# 光明日报
+gmdaily.cn
+gmw.cn
+guangmingdaily.cn
 # 观察者网
 guancha.cn
 # 硅谷网
@@ -140,6 +143,9 @@ ths123.com
 thsi.cn
 # 和讯
 hexun.com
+# 华声在线/湖南在线
+hnol.net
+voc.com.cn
 # 河南广播电视台/大象网
 hntv.tv
 hndt.com # 河南广播网
@@ -167,6 +173,8 @@ infzm.com
 nfpeople.com
 # 艾瑞咨询
 iresearch.cn
+# 科技视讯
+istv.cn
 # IT168
 it168.com
 # 华尔街见闻
@@ -213,6 +221,8 @@ miercn.com
 mnw.cn
 # 快科技
 mydrivers.com
+# ZAKER新闻
+myzaker.com
 # 南岳新闻网
 nanyuenews.com
 # 每日经济新闻报社
@@ -304,6 +314,9 @@ thepaper.cn
 # 潮新闻/浙江日报
 8531.cn
 tidenews.com.cn
+# 动脉网
+vbdata.cn
+vcbeat.top
 # 人人都是产品经理
 woshipm.com
 # 新华日报
