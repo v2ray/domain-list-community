@@ -23,6 +23,7 @@ include:category-travel-ru
 
 # Russian companies
 include:beget
+include:bitrix
 include:carrotquest
 include:cdek
 include:comssone
@@ -65,6 +66,11 @@ efin.ru
 ## Financial marketplace
 banki.ru
 finuslugi.ru
+## Insurance companies
+amt-insurance.com 
+lexgarant.com
+renins.com
+renins.ru
 ## Investment
 sistema-capital.com
 ## Mir payment system
@@ -87,6 +93,7 @@ mcc250.pub.3gppnetwork.org # Mobile IMS
 # Other services
 3ebra.net          # Zebra Net Bureau, web development agency
 apptrackpets.com   # Pet GPS tracker service (Yandex Cloud, reg.ru)
+chat2desk.com      # Omnichannel communications platform and chat center
 flomni.com         # Omnichannel communications platform
 foto-planeta.com   # Photo encyclopedia of settlements
 gazfond-pn.ru      # Non-state pension fund GAZFOND pension savings
@@ -99,6 +106,7 @@ pochta.ru          # Russian post
 ponyexpress.ru     # Courier delivery service
 qms.ru             # Russian internet speed testing service
 randomgodbot.com   # Telegram randomizer bot
+robohall.tech      # Robohall, creative engineering and robotics studio (Moscow, Russia)
 srv-hub.org        # Website buider
 t1.cloud           # Russian cloud storage provider
 taxsee.com         # Taxi for business (self-employed drivers)
